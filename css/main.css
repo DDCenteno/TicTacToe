@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.board {
+    margin: 100px auto;
+    /* sin borde en la tabla/td */
+    border-collapse: collapse;
+}
+
+.board td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+.board td:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+/* boton */
+body a {
+    font-family: sans-serif;
+    border: 0;
+    background-color: rgb(16, 110, 106);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin: auto 50%;
+}
+body a:hover{
+    background-color: rgb(5, 43, 41);
+}
+p{
+    text-align: center;
+}
